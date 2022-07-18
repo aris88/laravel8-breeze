@@ -22,4 +22,7 @@ class StatusFactory extends Factory
             'body' => $this->faker->sentence(),
         ];
     }
+
+    // buat data dummy setelah membuat factory dengan menjalankan perintah berikut di : php artisan tinker
+    // App\Models\User::factory()->hasStatuses(5)->count(10)->create();
 }
